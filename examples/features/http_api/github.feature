@@ -22,3 +22,12 @@ Feature: GitHub API
       | emojis_url       |
       | feeds_url        |
       | public_gists_url |
+      # chave json com espaço
+      | emojis url             |
+      # chave json duplicada
+      | emojis_url, emojis_url |
+      # chave com caracteres especiais
+      | !#$_url                |
+      
+      
+    
